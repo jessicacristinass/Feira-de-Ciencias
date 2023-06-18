@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+   <link rel="stylesheet" href="medio.css">
+</head>
+
+<body onload="Modal()">
+  <div id="congrats" class="hide">
+    <div id="congrats-body">
+      <img src="../imagens/congrats.png"><br>
+      <img id="trof" src="../imagens/trofeu.png">
+    </div>
+  </div>
+  <div id="modal" class="hide">
+    <div id="modal-head">
+      <h2>Nivel Médio: </h2>
+      <button id="fechar" onclick="Modal()">Fechar</button>
+    </div>
+    <div id="modal-body">
+      <h3>Informações</h3>
+      <p>1- Nesse nível, seu objetivo é alcançar 10 pontos. Cada acerto lhe dará um ponto, mas cada erro tirará um.</p>
+      <p>2- Estarão disponíveis para você 5 pulos em caso de não saber a resposta e não querer arriscar.</p>
+      <p>3- Nas divisões, em caso de número quebrado, escreva apenas a parte inteira; Ex: se a resposta é "0,25", escreva apenas o "0".</p>
+      <p>4- Na subtração também aparecem respostas negativas, fique atento.</p>
+      
+        <br><br><br>
+        
+        <center><h4>Boa sorte!!!</h4></center>
+    </div>
+  </div>
+  <div id="equacao">
+    <div class="placar" id="acertos"></div>
+    <div class="placar" id="pulou"></div>
+    
+    <div id="DivA"></div>
+    <div id="DivC"></div>
+    <div id="DivB"></div>
+    <div id="igual"></div>
+  </div>
+  <input type="button" onclick="Criar()" id="emb" value="Clique para criar uma conta matemática">
+
+  <script src="medio.js"></script>
+</body>
+
+</html>
