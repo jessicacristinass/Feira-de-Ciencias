@@ -183,7 +183,7 @@ function fim(){
 }
 
 document.getElementById("congrats").addEventListener("click", function() {
-  window.location.href = "/index.html"
+  window.location.href = "/Feira-de-Ciencias/"
 });
 
 var modal = document.getElementById("modal")
