@@ -186,7 +186,7 @@ function fim(){
 }
 
 document.getElementById("congrats").addEventListener("click", function() {
-  window.location.href = "/index.html"
+  window.location.href = "./index.html"
 });
 
 var modal = document.getElementById("modal")
