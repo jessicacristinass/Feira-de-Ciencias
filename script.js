@@ -65,7 +65,7 @@ function conferir(){
     res = "outra operação"
   }
   
-  if ((document.getElementById("resp").value).toFixed(2) == res){
+  if (document.getElementById("resp") == res){
 
     var congrats = document.getElementById("congrats")
     
