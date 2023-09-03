@@ -56,7 +56,7 @@ function conferir(){
   if (c == "-") {
     res = parseInt(a) - parseInt(b) 
   }else if(c == "÷"){
-    res = parseInt(parseInt(a)/parseInt(b))
+    res = (parseInt(a)/parseInt(b)).toFixed(2)
   }else if(c == "+"){
     res = parseInt(a) + parseInt(b) 
   }else if(c == "×"){
