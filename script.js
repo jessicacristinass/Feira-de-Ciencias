@@ -56,7 +56,7 @@ function conferir(){
   if (c == "-") {
     res = parseInt(a) - parseInt(b) 
   }else if(c == "÷"){
-    res = (parseInt(a)/parseInt(b)).toPrecision(2)
+    res = parseInt((parseInt(a)/parseInt(b))
   }else if(c == "+"){
     res = parseInt(a) + parseInt(b) 
   }else if(c == "×"){
@@ -65,7 +65,7 @@ function conferir(){
     res = "outra operação"
   }
   
-  if (document.getElementById("resp")==res){
+  if (parseInt(document.getElementById("resp").value) == res){
 
     var congrats = document.getElementById("congrats")
     
