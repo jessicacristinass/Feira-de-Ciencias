@@ -74,7 +74,7 @@ function conferir(){
     res = "outra operação"
   }
   
-  if (document.getElementById("resp").value == res){
+  if (parseInt(document.getElementById("resp").value) == res){
     acertos = acertos + 1;
     
     document.getElementById("resp").value = ""
